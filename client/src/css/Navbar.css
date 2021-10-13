@@ -1,0 +1,22 @@
+.navbar{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    padding: 1.5rem 2rem;
+    background-color: white;
+}
+
+.navbar a{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.navbar ul li{
+    padding: 0 2rem;
+}
+
+.nav-link{
+    color: black !important;
+}
+
+.nav-link:hover, .navbar-brand:hover{
+    color: rgb(211,46,94) !important;
+}

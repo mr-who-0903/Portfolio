@@ -1,0 +1,95 @@
+.about-main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(243, 240, 240, 1);
+}
+
+.about-sub-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+    width: 60%;
+}
+
+.about-sub-div h1{
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: black;
+}
+
+.about-sub-div p{
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.underline{
+    width: 3rem;
+    height: 5px;
+    background-color: rgba(174,15,54);
+    border-radius: 5px;
+}
+
+.about-main-div .container{
+    margin-bottom: 5rem;
+}
+
+.about-main-div .container .columns{
+    margin-top: 6rem;
+}
+
+.about-main-div .container p{
+    margin-top: 2rem;
+    font-size: 1.1rem;
+}
+
+.cv-btn{
+    color: white;
+    background-color: rgb(211,46,94);
+    padding: 0.5rem 2rem;
+    letter-spacing: 2px;
+    outline: none;
+    border: none;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2rem;
+    box-shadow: 0 5px 15px 0 rgb(0, 0, 0, 15%);
+    transition: transform .3s;
+}
+
+.cv-btn:hover{
+    transform: translateY(-3px);
+}
+
+.skills .row{
+    margin-top: 2rem;
+}
+
+.skills .col-sm-4, .skills .col-6{
+    padding: 12px;
+    cursor: pointer;
+    transition: transform .3s;
+}
+
+.skills .col-sm-4:hover, .skills .col-6:hover{
+    transform: translateY(-6px);
+}
+
+.skills .col-sm-4 > div,.skills .col-6 > div{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #f9f9f9;
+} 
+
+.skills .col-sm-4 > div i, .skills .col-6 > div i{
+    font-size: 2.5rem;
+}
+
+.skills h6{
+    margin-top: 5px;
+}

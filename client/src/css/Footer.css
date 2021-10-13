@@ -1,0 +1,92 @@
+.footer-main-div{
+    background-color: black;
+    padding: 5rem 5rem 2rem 5rem;
+}
+
+.footer-sub-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-sub-div h3{
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.container-left{
+    color: white;
+    width: 40%;
+}
+
+.container-right{
+    color: white;
+    width: 10rem;
+}
+
+.container-left p{
+    margin-top: 1.5rem;
+}
+
+.social-links{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 5rem;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.fa-copyright{
+    margin: 3px;
+}
+
+.fa-linkedin-in:hover{
+    color: cornflowerblue;
+}
+
+.fa-instagram:hover{
+    /* color: rgb(255, 121, 203);   */
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.fa-facebook-f:hover{
+    color: rgb(76, 122, 247);
+}
+
+.footer-main-div .fa-github:hover{
+    color: rgb(44, 240, 44);
+}
+
+/* small */
+@media screen and (max-width: 490px) {
+
+    .footer-main-div{
+        padding: 2rem;
+    }
+
+    .footer-sub-div{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .container-left{
+        width: 100%;
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+    
+    
+
+  }

@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+   /* border: 1px solid white;  */
+  }
+  
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  ::-webkit-scrollbar{
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track{
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    background: #888;
+  }
+  
+  /* large */
+  @media screen and (min-width: 992px){
+    html{
+        font-size: 100%;
+    }
+  }
+  
+  /* medium */
+  @media screen and (min-width: 767px) and (max-width: 991px){
+    html{
+        font-size: 80%;
+    }
+  
+  }
+  
+  /* small */
+  @media screen and (max-width: 766px) {
+    html{
+        font-size: 70%;
+    }
+    
+  }
+  
+   
+  

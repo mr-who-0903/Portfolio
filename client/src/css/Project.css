@@ -1,0 +1,64 @@
+.project-main-div, .project-sub-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(243, 240, 240, 1);
+}
+
+.project-sub-div{
+    margin-top: 6rem;
+}
+
+.project-sub-div h1{
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: black;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills .skill{
+    background-color: rgba(153,153,153,.2);
+    color: #666;
+    display: block;
+    padding: 0.8rem 1.2rem;
+    font-weight: 500;
+    border-radius: 5px;
+    margin: 0 1rem 1rem 0;
+}
+
+.home-sub-div h1{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.live-btn, .code-btn{
+    padding: 0.5rem 2rem;
+    letter-spacing: 2px;
+    outline: none;
+    border: none;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    box-shadow: 0 5px 15px 0 rgb(0, 0, 0, 15%);
+    transition: transform .3s;
+}
+
+.live-btn:hover, .code-btn:hover{
+    transform: translateY(-3px);
+}
+
+.live-btn{
+    background-color: rgb(211,46,94);
+}
+
+.code-btn{
+    background-color: white;
+}

@@ -18,6 +18,9 @@ const Footer = () => {
                         <i className="fab fa-facebook-f" style={{cursor:"pointer"}} onClick={() => window.open("", "_blank")} ></i>
                         <i className="fab fa-github" style={{cursor:"pointer"}} onClick={() => window.open("https://github.com/mr-who-0903", "_blank")} ></i>
                     </div>
+                    <div className="gmail">
+                        <i style={{marginRight:"5px"}} className="far fa-envelope" />ritikjain0903@gmail.com
+                    </div>
                 </div>
             </div>
             <div className="copyright">

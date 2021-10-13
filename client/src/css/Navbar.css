@@ -1,22 +1,109 @@
+header{
+    position: fixed;
+    z-index: 1000;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0 10px 100px rgb(0, 0, 0, 10%);
+}
+
 .navbar{
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-    padding: 1.5rem 2rem;
+    padding: 1.5rem;
     background-color: white;
 }
 
-.navbar a{
+.navbar h5{
+    cursor: pointer;
+}
+
+.navbar h5:hover{
+    color: rgb(174,15,54);
+}
+
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 75%;
+    margin: 0;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: black;
     font-size: 1.2rem;
-    font-weight: 500;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
 }
 
-.navbar ul li{
-    padding: 0 2rem;
+.nav-links li a:hover{
+    color: rgb(174,15,54);
 }
 
-.nav-link{
-    color: black !important;
+.mobile-menu-icon{
+    display: none;
 }
 
-.nav-link:hover, .navbar-brand:hover{
-    color: rgb(211,46,94) !important;
-}
+@media screen and (max-width: 780px) {
+    .navbar{
+        padding: 2rem;
+    }
+
+    .navbar h5{
+        margin: 0;
+    }
+
+    .nav-links{
+        display: none;
+    }
+
+    .nav-links-mobile{
+        position: absolute;
+        display: block;
+        transition: all 0.3s;
+        list-style: none;
+        background-color: white;
+        left: 0;
+        top: 5rem;
+        transition: all 0.3s;
+        width: 100%;
+        border-top: 1px solid #e7e4e4;;
+        z-index: 1000;
+    }
+
+    .nav-links-mobile li {
+        color: white;
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    .nav-links-mobile li a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding: 10px 20px;
+        margin: 0 10px;
+        cursor: pointer;
+    }
+
+    .nav-links-mobile li a:hover{
+        color: rgb(174,15,54);
+    }
+
+    .mobile-menu-icon{
+        display: block;
+        position: absolute;
+        font-size: 2rem;
+        color: black;
+        background-color: white;
+        border: none !important;
+        outline: none !important;
+        right: 3rem;
+        cursor: pointer;
+    }
+    
+  }
